@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		70CD2D102219A7B900AB3DA1 /* ConsecutiveStringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD2D0F2219A7B900AB3DA1 /* ConsecutiveStringTest.swift */; };
 		70CD2D172219B11100AB3DA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD2D002219A6B300AB3DA1 /* main.swift */; };
-		70CD2D182219B96700AB3DA1 /* CosecutiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD2D072219A72400AB3DA1 /* CosecutiveString.swift */; };
+		70CD2D192219BB5E00AB3DA1 /* CosecutiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD2D072219A72400AB3DA1 /* CosecutiveString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				70CD2D002219A6B300AB3DA1 /* main.swift */,
+				70CD2D072219A72400AB3DA1 /* CosecutiveString.swift */,
 			);
 			path = CodeWarPractice;
 			sourceTree = "<group>";
@@ -80,7 +81,6 @@
 		70CD2D0E2219A7B900AB3DA1 /* SolutionExample */ = {
 			isa = PBXGroup;
 			children = (
-				70CD2D072219A72400AB3DA1 /* CosecutiveString.swift */,
 				70CD2D0F2219A7B900AB3DA1 /* ConsecutiveStringTest.swift */,
 				70CD2D112219A7B900AB3DA1 /* Info.plist */,
 			);
@@ -175,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CD2D192219BB5E00AB3DA1 /* CosecutiveString.swift in Sources */,
 				70CD2D172219B11100AB3DA1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +184,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70CD2D182219B96700AB3DA1 /* CosecutiveString.swift in Sources */,
 				70CD2D102219A7B900AB3DA1 /* ConsecutiveStringTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
