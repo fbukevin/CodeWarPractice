@@ -16,15 +16,21 @@ public class ConsecutiveString {
     var longest = (index: 0, length: 0)
 
     for (index, str) in strarr.enumerated() {
-      if(str.count > longest.length){
+      if(str.characters.count > longest.length){
         longest.index = index
-        longest.length = str.count
+        longest.length = str.characters.count
       }
     }
 
     var result: String = ""
     for i in longest.index..<longest.index+k {
+      if(i >= strarr.count){
+        break
+      }
+
       result = "\(result)\(strarr[i])"
+
+
     }
 
     return result
