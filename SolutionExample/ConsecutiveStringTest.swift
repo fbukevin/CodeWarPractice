@@ -26,6 +26,5 @@ class ConsecutiveStringTest: XCTestCase {
         testing([], 3, "")
         testing(["itvayloxrp","wkppqsztdkmvcuwvereiupccauycnjutlv","vweqilsfytihvrzlaodfixoyxvyuyvgpck"], 2,
                 "wkppqsztdkmvcuwvereiupccauycnjutlvvweqilsfytihvrzlaodfixoyxvyuyvgpck")
-    testing(["zone", "theta", "form", "libe", "zas", "abigail"], 2, "abigail")
   }
 }

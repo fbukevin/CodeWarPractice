@@ -10,29 +10,26 @@ import Foundation
 
 public class ConsecutiveString {
   static func longestConsec(_ strarr: [String], _ k: Int) -> String {
+    print(strarr, k)
+    if(strarr.count == 0 || k > strarr.count || k <= 0) { return "" }
 
-    if(strarr.count == 0) { return "" }
+    var longest = (word: "", length: 0)
 
-    var longest = (index: 0, length: 0)
+    for (index, _) in strarr.enumerated() {
+      if(index+k > strarr.count){ break }
 
-    for (index, str) in strarr.enumerated() {
-      if(str.characters.count > longest.length){
-        longest.index = index
-        longest.length = str.characters.count
+      var combine = ""
+      for i in 0..<k {
+        combine = "\(combine)\(strarr[index+i])"
+      }
+
+
+      if(combine.characters.count > longest.length){
+        longest.word = combine
+        longest.length = combine.characters.count
       }
     }
 
-    var result: String = ""
-    for i in longest.index..<longest.index+k {
-      if(i >= strarr.count){
-        break
-      }
-
-      result = "\(result)\(strarr[i])"
-
-
-    }
-
-    return result
+    return longest.word
   }
 }

@@ -6,7 +6,3 @@
 //  Copyright © 2019 Sanity. All rights reserved.
 //
 
-//import Foundation
-//
-//print("Hello, World!")
-//
