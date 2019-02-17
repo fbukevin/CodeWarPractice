@@ -7,7 +7,7 @@
 //
 
 import XCTest
-//@testable import CodeWarPractice
+@testable import CodeWarPractice
 
 class ConsecutiveStringTest: XCTestCase {
 
